@@ -1,5 +1,5 @@
 {
-  "name":"dooringx-example",
+  "name": "dooringx-example",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -23,11 +23,11 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
-		"antd": "^4.15.2",
     "@ant-design/pro-layout": "^6.5.0",
     "@umijs/preset-react": "1.x",
-    "umi": "^3.5.20",
-    "animate.css": "^4.1.1"
+    "animate.css": "^4.1.1",
+    "antd": "^4.15.2",
+    "umi": "^3.5.20"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
