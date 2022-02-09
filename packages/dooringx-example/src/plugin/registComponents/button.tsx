@@ -116,8 +116,8 @@ const MButton = new ComponentItemFactory(
 	},
 	{
 		props: {
-			text: 'yehuozhili',
-			sizeData: [100, 30],
+			text: 'yeuozhili',
+			sizeData: [100, 300],
 			backgroundColor: 'rgba(0,132,255,1)',
 			lineHeight: 1,
 			borderRadius: 0,

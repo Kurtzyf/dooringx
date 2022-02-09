@@ -17,15 +17,15 @@ export async function createPlugin(name: string, option: string) {
 }
 async function createApp(projectName: string, option: string) {
 	let root = path.resolve(projectName);
-
+	console.log(root, 'rootroot');
 	const isExist = fs.existsSync(root);
 
 	if (isExist) {
-		const choices = ['y', 'n'];
+		const choices = ['y', 'n', 's'];
 		let sign = 'y';
 		const result = await inquirer.prompt({
 			name: 'sign',
-			type: 'list',
+			type: 'checkbox',
 			message: `${projectName}  already exists , continue ?`,
 			choices,
 		});
@@ -64,6 +64,11 @@ async function run(root: string, projectName: string, _option: string) {
 
 	const templatePath = path.dirname(
 		require.resolve(`${templateName}/package.json`, { paths: [root] })
+	);
+	console.log(
+		require.resolve(`${templateName}/package.json`, { paths: [root] }),
+		templatePath,
+		'templatePath'
 	);
 	// 复制文件到项目目录
 

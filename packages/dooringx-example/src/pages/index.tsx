@@ -37,7 +37,7 @@ const footerConfig = function () {
 export default function IndexPage() {
 	const config = useContext(configContext);
 	const locale = useContext(LocaleContext);
-
+	console.log(config, locale, '11');
 	const everyFn = () => {};
 
 	const subscribeFn = useCallback(() => {
