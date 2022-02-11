@@ -54,5 +54,6 @@
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/H5-Dooring/dooringx.git"
-	}
+	},
+	"gitHead": "f7ec981da9b412ec0a4513004e65bfd33f676c3c"
 }

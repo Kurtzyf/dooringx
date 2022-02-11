@@ -11892,6 +11892,11 @@ jest@^26.6.3:
     import-local "^3.0.2"
     jest-cli "^26.6.3"
 
+jobsofferings-ui-components@0.0.1:
+  version "0.0.1"
+  resolved "http://registry.npm.wps.cn/jobsofferings-ui-components/download/jobsofferings-ui-components-0.0.1.tgz#8c6f5ee5f2373f1e2c58dfc441625f96ac224d85"
+  integrity sha1-jG9e5fI3Px4sWN/EQWJflqwiTYU=
+
 jpjs@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/jpjs/-/jpjs-1.2.1.tgz#f343833de8838a5beba1f42d5a219be0114c44b7"
